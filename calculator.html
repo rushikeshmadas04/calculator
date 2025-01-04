@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="stylesheets/calculator.css">
+</head>
+<body>
+  <div class="total-calculator">
+    <div class="result-section" id="result"></div>
+    <div class="calculation-section">
+      <button class="calculation-icon" onclick="handleInput('1')">1</button>
+      <button class="calculation-icon" onclick="handleInput('2')">2</button>
+      <button class="calculation-icon" onclick="handleInput('3')">3</button>
+      <button class="calculation-icon operation-icon" onclick="handleInput('+')">+</button>
+      <button class="calculation-icon" onclick="handleInput('4')">4</button>
+      <button class="calculation-icon" onclick="handleInput('5')">5</button>
+      <button class="calculation-icon" onclick="handleInput('6')">6</button>
+      <button class="calculation-icon operation-icon" onclick="handleInput('-')">-</button>
+      <button class="calculation-icon" onclick="handleInput('7')">7</button>
+      <button class="calculation-icon" onclick="handleInput('8')">8</button>
+      <button class="calculation-icon" onclick="handleInput('9')">9</button>
+      <button class="calculation-icon operation-icon" onclick="handleInput('*')">*</button>
+      <button class="calculation-icon" onclick="handleInput('0')">0</button>
+      <button class="calculation-icon" onclick="handleInput('.')">.</button>
+      <button class="calculation-icon" onclick="calculateResult()">=</button>
+      <button class="calculation-icon operation-icon" onclick="handleInput('/')">/</button>
+      <button class="calculation-icon clear-icon" onclick="clearCalculation()">Clear</button>
+    </div>
+  </div>
+    
+  <script src="Scripts/calculator.js"></script>
+</body>
+</html>

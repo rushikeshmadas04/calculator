@@ -1,0 +1,61 @@
+body{
+  color: white;
+  font-family: arial;
+  font-size: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  
+}
+
+button{
+  cursor: pointer;
+}
+
+.total-calculator{
+  
+  height: 400px;
+  width:280px;
+  border : none;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-section{
+  height: 70px;
+  /*display: none;*/
+ 
+}
+.calculation-section{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  justify-content:space-between;
+}
+.calculation-icon {
+  background-color: rgb(50,50,50);
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  height : 60px;
+  width: 60px;
+  border-radius : 50%;
+  border:none;
+  margin: 1px;
+}
+
+.operation-icon {
+  background-color: orange;
+  
+}
+
+.clear-icon{
+  font-size:18px;
+
+}
+
